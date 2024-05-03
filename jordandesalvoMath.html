@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Math Test</title>
+</head>
+<body>
+    <h2>Simple Math Test by Jordan Desalvo</h2>
+    <h1>Math Test</h1>
+    <form action="submit.php" method="post">
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <!-- Multiple Choice Questions -->
+        <p>1. What is 2 + 2?</p>
+        <input type="radio" id="choice1" name="question1" value="3">
+        <label for="choice1">3</label><br>
+        <input type="radio" id="choice2" name="question1" value="4">
+        <label for="choice2">4</label><br>
+        <input type="radio" id="choice3" name="question1" value="5">
+        <label for="choice3">5</label><br><br>
+
+        <p>2. What is the value of &pi;?</p>
+        <input type="radio" id="pi1" name="question2" value="3.14">
+        <label for="pi1">3.14</label><br>
+        <input type="radio" id="pi2" name="question2" value="3">
+        <label for="pi2">3</label><br>
+        <input type="radio" id="pi3" name="question2" value="4">
+        <label for="pi3">4</label><br><br>
+
+        <!-- Word Problem -->
+        <p>3. If you have &sum;_n=1^5 n, what is the sum?</p>
+        <textarea id="wordProblem" name="wordProblem" rows="4" cols="50"></textarea><br><br>
+
+        <!-- Submission Button -->
+        <input type="submit" value="Submit Test">
+
+    </form>
+    <!-- End of the Math Test -->
+</body>
+</html>
